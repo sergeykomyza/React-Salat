@@ -3,20 +3,21 @@
 import './info.sass'
 
 import banner from '../../img/banner.webp'
+import vegetablesImg from '../../img/vegetables-2.webp'
 
 function Info() {
 	const listDatas = ['Купить фрукты','Купить овощи','Купить фрукты и овощи оптом', 'Заказать фрукты в офис', 'Купить фрукты и овощи поштучно']
-	const listItems = listDatas.map((item) =>
-		<li><a href="/">{item}</a></li>
+	const listItems = listDatas.map((item, i) =>
+		<li key={i}><a href="/">{item}</a></li>
 	)
-	const listDatas2 = ['У нас самый свежий товар','У нас низкие цены','Купить фрукты и овощи оптом', 'У нас самые выгодные условия на покупку овощей и фруктов оптом']
-	const listItems2 = listDatas2.map((item) =>
-		<li><a href="/">{item}</a></li>
+	const listDatas2 = ['У нас самый свежий товар','У нас низкие цены', 'У нас самые выгодные условия на покупку овощей и фруктов оптом']
+	const listItems2 = listDatas2.map((item, i) =>
+		<li key={i}><a href="/">{item}</a></li>
 	)
 
 	return (
 		<section className="info">
-			<img className="info__vegetables" src="img/vegetables-2.webp" alt="vegetables" />
+			<img className="info__vegetables" src={vegetablesImg} alt="vegetables" />
 			<div className="center-box">
 				<h3 className="title info__title">Интернет магазин свежих и здоровых продуктов</h3>
 			</div><img className="info__img" src={banner} alt="banner" />
@@ -32,9 +33,7 @@ function Info() {
 					<div className="content-info__title elem-title">Какой то заголовок</div>
 					<p>Мы осуществляем доставку овощей собственной курьерской службой. Почему стоит покупать именно у нас:</p>
 					<ul>
-						<li><a href="/">У нас самый свежий товар</a></li>
-						<li><a href="/">У нас низкие цены</a></li>
-						<li><a href="/">У нас самые выгодные условия на покупку овощей и фруктов оптом</a></li>
+					{listItems2}
 					</ul>
 				</div>
 				<div className="content-info__col">
