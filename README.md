@@ -1,3 +1,8 @@
+# Интернет магазин свежих фруктов, овоще и ягод на React (Create React App)
+
+![Salat_index_v01](https://user-images.githubusercontent.com/62849901/148738698-e550374c-3225-4aff-85aa-2a60268a6dc4.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
