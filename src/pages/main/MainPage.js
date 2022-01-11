@@ -6,7 +6,7 @@ import Goods from '../../sections/goods/Goods'
 import Info from '../../sections/info/Info'
 import Advantages from '../../sections/advantages/Advantages'
 import Subscription from '../../sections/subscription/Subscription'
-import Footer from '../../sections/footer/Footer'
+
 
 
 function Main() {
@@ -19,7 +19,6 @@ function Main() {
 			<Info />
 			<Advantages />
 			<Subscription />
-			<Footer />
 		</div>
 	);
 }

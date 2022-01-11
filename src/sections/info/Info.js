@@ -3,7 +3,7 @@
 import './info.sass'
 
 import banner from '../../img/banner.webp'
-import vegetablesImg from '../../img/vegetables-2.webp'
+
 
 function Info() {
 
@@ -19,7 +19,7 @@ function Info() {
 
 	return (
 		<section className="info">
-			<img className="info__vegetables" src={vegetablesImg} alt="vegetables" />
+			
 			<div className="center-box">
 				<h3 className="title info__title">Интернет магазин свежих и здоровых продуктов</h3>
 			</div><img className="info__img" src={banner} alt="banner" />

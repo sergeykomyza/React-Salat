@@ -10,6 +10,8 @@ import good6 from '../../img/mini-good-6.webp'
 import good7 from '../../img/mini-good-7.webp'
 import good8 from '../../img/mini-good-8.webp'
 import good9 from '../../img/mini-good-9.webp'
+import vegetablesImg from '../../img/vegetables-2.webp'
+
 import { MiniGood } from './MiniGood'
 
 function Goods(){
@@ -70,6 +72,7 @@ function Goods(){
 					}
 				</div>
 			</div>
+			<img className="goods__vegetables" src={vegetablesImg} alt="vegetables" />
 		</section>
 	)
 }
