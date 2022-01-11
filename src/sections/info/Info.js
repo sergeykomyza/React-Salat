@@ -6,10 +6,12 @@ import banner from '../../img/banner.webp'
 import vegetablesImg from '../../img/vegetables-2.webp'
 
 function Info() {
+
 	const listDatas = ['Купить фрукты','Купить овощи','Купить фрукты и овощи оптом', 'Заказать фрукты в офис', 'Купить фрукты и овощи поштучно']
 	const listItems = listDatas.map((item, i) =>
 		<li key={i}><a href="/">{item}</a></li>
 	)
+
 	const listDatas2 = ['У нас самый свежий товар','У нас низкие цены', 'У нас самые выгодные условия на покупку овощей и фруктов оптом']
 	const listItems2 = listDatas2.map((item, i) =>
 		<li key={i}><a href="/">{item}</a></li>
