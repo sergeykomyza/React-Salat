@@ -7,6 +7,7 @@ import sliderFoto2 from '../../img/good-2.webp'
 import sliderFoto3 from '../../img/good-3.webp'
 import sliderFoto4 from '../../img/good-4.webp'
 import sliderFoto5 from '../../img/good-5.webp'
+import imgVegetables from '../../img/vegetables.webp'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.min.css'
@@ -81,6 +82,7 @@ function BestPrice() {
 
 				</div>
 			</div>
+			<img className='best-price__vegetables' src={imgVegetables} alt="vegetables" />
 		</section>
 	)
 }

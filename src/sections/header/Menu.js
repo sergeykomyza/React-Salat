@@ -17,9 +17,7 @@ const Menu = ()=> {
 				</a>
 			</li>
 			<li className="menu__item">
-				<a className="menu__link" href="news.html">
-					Новости
-				</a>
+				<NavLink to="/news" className="menu__link">Новости</NavLink>
 			</li>
 			<li className="menu__item">
 				<a className="menu__link" href="contacts.html">

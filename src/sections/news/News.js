@@ -7,7 +7,8 @@ import newFoto2 from '../../img/new-2.webp'
 import newFoto3 from '../../img/new-3.webp'
 import newFoto4 from '../../img/new-4.webp'
 import miniLogo from '../../img/circle-logo.png'
-import imgVegetables from '../../img/vegetables.webp'
+import decor from '../../img/decor-2.webp'
+
 
 
 function News(){
@@ -23,7 +24,7 @@ function News(){
 
 	return(
 		<section className="news">
-			<img className='news__vegetables' src={imgVegetables} alt="vegetables" />
+			
 			<div className="center-box">
 				<h1 className="title news__title">Свежие новости</h1>
 			</div>
@@ -39,6 +40,7 @@ function News(){
 			<div className="center-box">
 				<a className="button-red news__more" href="/">все статьи</a>
 			</div>
+			<img class="news__decor decor" src={decor} alt="decor"/>
 			<img className='mini-logo' src={miniLogo} alt="logo" />
 		</section>
 	)
