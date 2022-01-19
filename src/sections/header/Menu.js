@@ -20,9 +20,7 @@ const Menu = ()=> {
 				<NavLink to="/news" className="menu__link">Новости</NavLink>
 			</li>
 			<li className="menu__item">
-				<a className="menu__link" href="contacts.html">
-					Контакты
-				</a>
+				<NavLink to="/contacts" className="menu__link">Контакты</NavLink>
 			</li>
 		</ul>
 	)
